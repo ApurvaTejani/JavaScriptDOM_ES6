@@ -1,0 +1,19 @@
+#city-input, #weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color: white;
+    font-family: sans-serif;
+    font-size: xxx-large;
+    font-weight: 600;
+}
+
+
+.text-center{
+    background-image: url(./pexels-tahir-shaw-186980.jpg);
+    color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDB</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="./logic.js"></script>
+    <div class="heading">
+         <h1><span>IMDb</span></h1>
+    </div>
+    <div id="movies-list"></div>
+    <div class="btn">
+    <button id="byname" onclick="getMovieListSortByNameAsc(movies)">SortByNameAsc</button>
+    <button id="byrank "onclick="getMovieListSortByRankAsc(movies)">SortByRankAsc</button>
+    <button id="byyear" onclick="getMovieListSortByYearAsc(movies)">SortByYearAsc</button>
+    <button id="byname2" onclick="getMovieListSortByNameDec(movies)">SortByNameDec</button>
+    <button id="byrank2 "onclick="getMovieListSortByRankDec(movies)">SortByRankDec</button>
+    <button id="byyear2" onclick="getMovieListSortByYearDec(movies)">SortByYearDec</button>
+</div>
+<div class="btn2">
+    <button id="delete" onclick="deleteRowing()">Delete Row</button>
+    <button class="delete1" onclick="deleteColumning()">Delete Column</button>
+</div>
+</body>
+</html>
